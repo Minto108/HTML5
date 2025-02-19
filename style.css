@@ -1,0 +1,22 @@
+#one{
+    height: 100px;
+    width: 150px;
+    background-color: blue;
+}
+
+#two{
+    height: 100px;
+    width: 150px;
+    background-color: yellow;
+    background-repeat: repeat-x;
+}
+
+#three{
+    height: 100px;
+    width: 150px;
+    background-color: yellowgreen;
+}
+
+body{
+    background-color: violet;
+}
