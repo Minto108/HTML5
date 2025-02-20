@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./signin.css" type="text/css"/>
+    <script>
+        alert("Welcome!!!");
+        function myfunc(){
+            var a = document.getElementById('fn').value;
+            alert("Welcome "+a);
+
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <h1>Sign in form</h1>
+        <table>
+            <tr>
+                <th>First Name</th>
+                <td><input type="text" id="fn"/></td>
+            </tr>
+            <tr>
+                <th>
+                    Last Name
+                </th>
+                <td><input type="text"/></td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td><input type="email"/></td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td><input type="password"/></td>
+            </tr>
+            <tr>
+                <th>Re-enter Password</th>
+                <td><input type="password"/></td>
+            </tr>
+           
+        </table>
+        <button onclick="myfunc()">Sign In</button>
+    </center>
+</body>
+</html>
